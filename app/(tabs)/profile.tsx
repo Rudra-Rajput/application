@@ -1,10 +1,12 @@
 /** @format */
 
+import { useRouter } from 'expo-router';
 import React from "react";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import ScreenLayout from "../../components/layouts/ScreenLayout";
 
 export default function ProfileScreen() {
+  const router = useRouter();
   return (
     <ScreenLayout>
       <View style={styles.container}>
@@ -41,7 +43,7 @@ export default function ProfileScreen() {
               </View>
            </TouchableOpacity>
            <View style={styles.line}></View>
-           <TouchableOpacity style={styles.btnContainer}>
+           <TouchableOpacity onPress={() => router.push('/Settings')} style={styles.btnContainer}>
               <View style={styles.btn}>
                 <Image source={require('../../assets/icons/setting.png')} style={styles.icon}/>
                 <Text style={styles.btnText}>Settings</Text>

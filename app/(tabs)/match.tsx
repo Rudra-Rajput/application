@@ -37,6 +37,7 @@ const match = () => {
         <View style={{ marginTop: "6%" }}>
           <FlatList
             horizontal
+            showsHorizontalScrollIndicator={false}
             data={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
             renderItem={() => {
               return (
@@ -62,9 +63,7 @@ const match = () => {
               // <View style={styles.cardWrapper}>
                 <TouchableOpacity onPress={handleProfilePress} activeOpacity={0.8} style={styles.cardContainer}>
                   <Image
-                    source={{
-                      uri: "https://i.pinimg.com/1200x/da/f7/6f/daf76f8ab85f4539651cc9150358a9be.jpg",
-                    }}
+                    source={require('../../assets/images/girl.jpg')}
                     style={styles.image}
                   />
 

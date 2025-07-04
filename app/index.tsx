@@ -1,6 +1,5 @@
 import { useRouter } from 'expo-router';
 import React from 'react';
-// import ProfileDetails from './screens/ProfileDetails';
 import SplashScreen from './SplashScreen';
 
 export default function AppEntry() {
@@ -15,8 +14,6 @@ export default function AppEntry() {
   }, [router]);
 
   return <SplashScreen />;
-  // return <ProfileDetails />;
-  // return <Settings />;
 }
 
 export const options = {

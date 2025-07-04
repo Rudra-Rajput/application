@@ -1,11 +1,11 @@
-import { Tabs, useRouter, usePathname } from "expo-router";
 import {
   HomeIcon,
-  MessageIcon,
   MatchesIcon,
+  MessageIcon,
   UserIcon,
 } from "@/components/icons";
-import { View, Pressable, Text } from "react-native";
+import { Tabs, usePathname, useRouter } from "expo-router";
+import { Pressable, Text, View } from "react-native";
 
 export default function TabLayout() {
   const router = useRouter();
