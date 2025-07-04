@@ -43,7 +43,7 @@ export default function ProfileScreen() {
               </View>
            </TouchableOpacity>
            <View style={styles.line}></View>
-           <TouchableOpacity onPress={() => router.push('/Settings')} style={styles.btnContainer}>
+           <TouchableOpacity onPress={() => router.push('/profile/settings')} style={styles.btnContainer}>
               <View style={styles.btn}>
                 <Image source={require('../../assets/icons/setting.png')} style={styles.icon}/>
                 <Text style={styles.btnText}>Settings</Text>

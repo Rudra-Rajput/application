@@ -4,13 +4,13 @@ import ScreenLayout from "@/components/layouts/ScreenLayout";
 import React from "react";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-const Settings = () => {
+const settings = () => {
   return (
     <ScreenLayout>
       <View style={styles.container}>
         <View style={styles.header}>
           <Image
-            source={require("../../assets/icons/left.png")}
+            source={require("../../../assets/icons/left.png")}
             style={styles.icon}
           />
           <Text style={styles.headerText}>Settings</Text>
@@ -19,7 +19,7 @@ const Settings = () => {
         <View style={styles.box}>
           <View style={styles.starContainer}>
             <Image
-              source={require("../../assets/icons/star.png")}
+              source={require("../../../assets/icons/star.png")}
               style={styles.icon}
             />
           </View>
@@ -54,14 +54,14 @@ const Settings = () => {
           <TouchableOpacity style={styles.btnContainer}>
             <View style={styles.btn}>
               <Image
-                source={require("../../assets/icons/camera.png")}
+                source={require("../../../assets/icons/camera.png")}
                 style={styles.btnIcon}
               />
               <Text style={styles.btnText}>Manage Payment Account</Text>
             </View>
             <View>
               <Image
-                source={require("../../assets/icons/right.png")}
+                source={require("../../../assets/icons/right.png")}
                 style={styles.btnIcon}
               />
             </View>
@@ -70,14 +70,14 @@ const Settings = () => {
           <TouchableOpacity style={[styles.btnContainer]}>
             <View style={styles.btn}>
               <Image
-                source={require("../../assets/icons/camera.png")}
+                source={require("../../../assets/icons/camera.png")}
                 style={styles.btnIcon}
               />
               <Text style={styles.btnText}>Restore Purchases</Text>
             </View>
             <View>
               <Image
-                source={require("../../assets/icons/right.png")}
+                source={require("../../../assets/icons/right.png")}
                 style={styles.btnIcon}
               />
             </View>
@@ -86,14 +86,14 @@ const Settings = () => {
           <TouchableOpacity style={styles.btnContainer}>
             <View style={styles.btn}>
               <Image
-                source={require("../../assets/icons/camera.png")}
+                source={require("../../../assets/icons/camera.png")}
                 style={styles.btnIcon}
               />
               <Text style={styles.btnText}>Email : rudrarajput9555@gmail.com</Text>
             </View>
             <View>
               <Image
-                source={require("../../assets/icons/right.png")}
+                source={require("../../../assets/icons/right.png")}
                 style={styles.btnIcon}
               />
             </View>
@@ -102,14 +102,14 @@ const Settings = () => {
           <TouchableOpacity style={styles.btnContainer}>
             <View style={styles.btn}>
               <Image
-                source={require("../../assets/icons/camera.png")}
+                source={require("../../../assets/icons/camera.png")}
                 style={styles.btnIcon}
               />
               <Text style={styles.btnText}>Phone Number : 9555123085</Text>
             </View>
             <View>
               <Image
-                source={require("../../assets/icons/right.png")}
+                source={require("../../../assets/icons/right.png")}
                 style={styles.btnIcon}
               />
             </View>
@@ -120,14 +120,14 @@ const Settings = () => {
   );
 };
 
-export default Settings;
+export default settings;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginTop: -20
   },
   header: {
-    marginTop: "5%",
     marginHorizontal: "5%",
     flexDirection: "row",
     alignItems: "center",
