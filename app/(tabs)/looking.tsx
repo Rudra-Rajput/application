@@ -12,11 +12,14 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { useRouter } from "expo-router";
 
 const looking = () => {
 
-  const handleProfilePress = () => {
+  const router = useRouter();
 
+  const handleProfilePress = () => {
+    router.push('/profile/profiledetails');
   }
 
   return (

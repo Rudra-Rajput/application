@@ -59,7 +59,7 @@ const router = useRouter();
             keyExtractor={(_, index) => index.toString()}
             renderItem={() => (
               // <View style={styles.cardWrapper}>
-                <TouchableOpacity onPress={() => router.push('/profile/plans')} activeOpacity={0.8} style={styles.cardContainer}>
+                <TouchableOpacity onPress={() =>router.push('/profile/profiledetails')} activeOpacity={0.8} style={styles.cardContainer}>
                   <Image
                     source={require('../../assets/images/girl.jpg')}
                     style={styles.image}
