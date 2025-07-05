@@ -59,7 +59,7 @@ const editprofile = () => {
       <View style={styles.container}>
         <View style={styles.header}>
           <Image
-            source={require("../../../assets/icons/left.png")}
+            source={require("../../assets/icons/left.png")}
             style={styles.icon}
           />
           <Text style={styles.headerText}>Edit Profile</Text>
@@ -91,7 +91,7 @@ const editprofile = () => {
             <View style={styles.section}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -108,7 +108,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -127,7 +127,7 @@ const editprofile = () => {
             <View style={[styles.section, { marginTop: 0 }]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -144,7 +144,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -163,7 +163,7 @@ const editprofile = () => {
             <View style={[styles.section, { marginTop: 0 }]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -180,7 +180,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -189,7 +189,7 @@ const editprofile = () => {
             <View style={[styles.section, { marginTop: 0 }]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -206,7 +206,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -219,7 +219,7 @@ const editprofile = () => {
               ]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -236,7 +236,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -249,7 +249,7 @@ const editprofile = () => {
               ]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -266,7 +266,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -279,7 +279,7 @@ const editprofile = () => {
               ]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -296,7 +296,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -309,7 +309,7 @@ const editprofile = () => {
               ]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -326,7 +326,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -339,7 +339,7 @@ const editprofile = () => {
               ]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -356,7 +356,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -379,7 +379,7 @@ const editprofile = () => {
               ]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -396,7 +396,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -409,7 +409,7 @@ const editprofile = () => {
               ]}>
               <View style={styles.sectionItem}>
                 <Image
-                  source={require("../../../assets/icons/star.png")}
+                  source={require("../../assets/icons/star.png")}
                   style={styles.icon}
                 />
                 <Text
@@ -426,7 +426,7 @@ const editprofile = () => {
                   Add
                 </Text>
                 <Image
-                  source={require("../../../assets/icons/right.png")}
+                  source={require("../../assets/icons/right.png")}
                   style={[styles.icon, { marginLeft: 10 }]}
                 />
               </View>
@@ -500,6 +500,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    marginTop: '5%'
   },
   icon: {
     width: 20,

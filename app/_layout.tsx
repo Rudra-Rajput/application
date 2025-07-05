@@ -35,6 +35,10 @@ export default function RootLayout() {
         <Stack.Screen options={{ headerShown: false }} name="login" />
         <Stack.Screen options={{ headerShown: false }} name="auth" />
         <Stack.Screen options={{ headerShown: false }} name="(tabs)" />
+        <Stack.Screen options={{ headerShown: false }} name="profile/settings" />
+        <Stack.Screen options={{ headerShown: false }} name="profile/editprofile" />
+        <Stack.Screen options={{ headerShown: false }} name="profile/plans" />
+        <Stack.Screen options={{ headerShown: false }} name="profile/profiledetails" />
       </Stack>
     </ThemeProvider>
   );

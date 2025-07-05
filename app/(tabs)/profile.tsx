@@ -33,7 +33,7 @@ export default function ProfileScreen() {
               </View>
            </TouchableOpacity>
            <View style={styles.line}></View>
-           <TouchableOpacity style={styles.btnContainer}>
+           <TouchableOpacity onPress={() => router.push('/profile/editprofile')} style={styles.btnContainer}>
               <View style={styles.btn}>
                 <Image source={require('../../assets/icons/edit.png')} style={styles.icon}/>
                 <Text style={styles.btnText}>Edit Profile</Text>

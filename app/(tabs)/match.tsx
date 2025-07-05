@@ -2,6 +2,7 @@
 
 import ScreenLayout from "@/components/layouts/ScreenLayout";
 import { BlurView } from "expo-blur";
+import { useRouter } from 'expo-router';
 import React from "react";
 import {
   FlatList,
@@ -14,10 +15,7 @@ import {
 } from "react-native";
 
 const match = () => {
-
-  const handleProfilePress = () => {
-
-  }
+const router = useRouter();
 
   return (
     <ScreenLayout>
@@ -61,7 +59,7 @@ const match = () => {
             keyExtractor={(_, index) => index.toString()}
             renderItem={() => (
               // <View style={styles.cardWrapper}>
-                <TouchableOpacity onPress={handleProfilePress} activeOpacity={0.8} style={styles.cardContainer}>
+                <TouchableOpacity onPress={() => router.push('/profile/plans')} activeOpacity={0.8} style={styles.cardContainer}>
                   <Image
                     source={require('../../assets/images/girl.jpg')}
                     style={styles.image}

@@ -6,7 +6,7 @@ const ProfileDetails = () => {
     <ScrollView style={styles.container}>
        <View style={styles.header}>
           <View style={styles.iconContainer}>
-             <Image source={require('../../../assets/icons/left.png')} style={styles.icon}/>
+             <Image source={require('../../assets/icons/left.png')} style={styles.icon}/>
           </View>
           <View style={styles.distContainer}>
              <Text style={styles.distText}>15 Km away</Text>
@@ -14,14 +14,14 @@ const ProfileDetails = () => {
        </View>
 
         <View style={styles.imageContainer}>
-           <Image source={require('../../../assets/images/girl.jpg')} style={styles.image}/>  
+           <Image source={require('../../assets/images/girl.jpg')} style={styles.image}/>  
         </View>
 
         <View style={styles.box}>
            <View style={styles.nameContainer}>
               <Text style={styles.name}>Riya Shah . 25</Text>
            <TouchableOpacity>
-             <Image source={require('../../../assets/icons/dots.png')} style={styles.icon}/>
+             <Image source={require('../../assets/icons/dots.png')} style={styles.icon}/>
            </TouchableOpacity>
            </View>
            <View style={{marginLeft: '4%', marginTop: '1%'}}>
@@ -46,7 +46,7 @@ const ProfileDetails = () => {
               <FlatList scrollEnabled={false} numColumns={3} data={[1,1,1,1,1,1]} renderItem={() => {
                 return(
                    <View style={styles.catItems}>
-                      <Image source={require('../../../assets/icons/star.png')} style={{width: 13, height: 13, tintColor: '#FFF'}}/>
+                      <Image source={require('../../assets/icons/star.png')} style={{width: 13, height: 13, tintColor: '#FFF'}}/>
                       <Text style={[styles.bio, {fontSize: 12}]}>Gaming</Text>
                    </View> 
                 )
@@ -61,7 +61,7 @@ const ProfileDetails = () => {
               <FlatList scrollEnabled={false} numColumns={3} data={[1,1,1,1,1]} renderItem={() => {
                 return(
                    <View style={styles.catItems}>
-                      <Image source={require('../../../assets/icons/star.png')} style={{width: 13, height: 13, tintColor: '#FFF'}}/>
+                      <Image source={require('../../assets/icons/star.png')} style={{width: 13, height: 13, tintColor: '#FFF'}}/>
                       <Text style={[styles.bio, {fontSize: 12}]}>Empathy</Text>
                    </View> 
                 )
@@ -76,7 +76,7 @@ const ProfileDetails = () => {
               <FlatList scrollEnabled={false} numColumns={3} data={[1,1,1,1,1]} renderItem={() => {
                 return(
                    <View style={styles.catItems}>
-                      <Image source={require('../../../assets/icons/star.png')} style={{width: 13, height: 13, tintColor: '#FFF'}}/>
+                      <Image source={require('../../assets/icons/star.png')} style={{width: 13, height: 13, tintColor: '#FFF'}}/>
                       <Text style={[styles.bio, {fontSize: 12}]}>Foodie</Text>
                    </View> 
                 )
